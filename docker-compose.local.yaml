@@ -197,8 +197,8 @@ services:
   flower:
     <<: *airflow-common
     command: celery flower
-    # profiles:
-      # - flower
+    profiles:
+      - flower
     ports:
       - 5555:5555
     healthcheck:
