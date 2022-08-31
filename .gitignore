@@ -1,0 +1,19 @@
+# env
+env/
+airflow_var.json
+run_docker.sh
+
+#airflow
+logs/
+
+#certs
+certbot/
+
+#python
+__pycache__/
+
+# Scripts
+change_vars.py
+
+# Custom mods
+custom/
