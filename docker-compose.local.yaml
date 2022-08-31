@@ -214,7 +214,7 @@ services:
 
   nginx:
     image: nginx:latest
-    container_name: nginx
+    container_name: nginx-ws
     restart: unless-stopped
     depends_on:
         - airflow-webserver
